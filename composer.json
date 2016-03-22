@@ -1,0 +1,39 @@
+{
+    "name": "lorenzomar/mysql-optimized-uuid",
+    "description": "Optimized binary representation of UUID to use as primary key in MySQL table. See www.percona.com/blog/2014/12/19/store-uuid-optimized-way",
+    "keywords": [
+        "uuid",
+        "identifier",
+        "mysql"
+    ],
+    "homepage": "https://github.com/lorenzomar/mysql-optimized-uuid",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lorenzo Marzullo",
+            "email": "marzullo.lorenzo@gmail.com",
+            "homepage": "https://github.com/lorenzomar"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/lorenzomar/mysql-optimized-uuid/issues",
+        "source": "https://github.com/lorenzomar/mysql-optimized-uuid"
+    },
+    "require": {
+        "php": ">=5.4",
+        "ramsey/uuid": "@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "MysqlOptimizedUuid\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MysqlOptimizedUuid\\Test\\": "tests"
+        }
+    }
+}
