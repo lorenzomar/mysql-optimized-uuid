@@ -21,7 +21,8 @@
     },
     "require": {
         "php": ">=5.4",
-        "ramsey/uuid": "@stable"
+        "ramsey/uuid": "@stable",
+        "moontoast/math": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "@stable"
