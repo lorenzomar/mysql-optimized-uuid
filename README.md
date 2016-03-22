@@ -6,4 +6,4 @@
 [![License](https://poser.pugx.org/lorenzomar/mysql-optimized-uuid/license)](https://packagist.org/packages/valueobjects/geography)
 
 Optimized binary representation of UUID to use as primary key in MySQL table.
-See www.percona.com/blog/2014/12/19/store-uuid-optimized-way
+See www.percona.com/blog/2014/12/19/store-uuid-optimized-way for further details.
