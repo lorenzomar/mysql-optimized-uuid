@@ -12,6 +12,11 @@
          syntaxCheck="true"
          verbose="true">
     >
+    <testsuites>
+        <testsuite name="Unit">
+            <directory>tests/</directory>
+        </testsuite>
+    </testsuites>
 
     <filter>
         <whitelist>
