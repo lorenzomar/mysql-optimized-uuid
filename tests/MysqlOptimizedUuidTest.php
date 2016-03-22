@@ -35,7 +35,7 @@ class MysqlOptimizedUuidTest extends \PHPUnit_Framework_TestCase
     {
         $id = MysqlOptimizedUuid::generate();
 
-        $this->assertInstanceOf(MysqlOptimizedUuid::class, $id);
+        $this->assertInstanceOf('MysqlOptimizedUuid\MysqlOptimizedUuid', $id);
     }
 
     public function testSameValueAs()
